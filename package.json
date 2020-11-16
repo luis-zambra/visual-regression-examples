@@ -1,0 +1,43 @@
+{
+  "name": "visual-regression-examples",
+  "version": "1.0.0",
+  "description": "Examples on WebdriverIO for Visual Regression tests using Applitools and Oculow as solutions",
+  "main": "index.js",
+  "scripts": {
+    "test:eyes": "wdio wdio.conf.js --suite applitools",
+    "test:oculow": "wdio wdio.conf.js --suite oculow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luis-zambra/visual-regression-examples.git"
+  },
+  "keywords": [
+    "Automation",
+    "Testing",
+    "Visual",
+    "Regression",
+    "QA",
+    "Quality",
+    "Software",
+    "Applitools",
+    "Oculow",
+    "AI"
+  ],
+  "author": "Luis Zambra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luis-zambra/visual-regression-examples/issues"
+  },
+  "homepage": "https://github.com/luis-zambra/visual-regression-examples#readme",
+  "devDependencies": {
+    "@applitools/eyes-webdriverio": "^5.26.0",
+    "@wdio/cli": "^6.7.4",
+    "@wdio/local-runner": "^6.7.3",
+    "@wdio/mocha-framework": "^6.7.3",
+    "@wdio/selenium-standalone-service": "^6.7.3",
+    "@wdio/spec-reporter": "^6.7.0",
+    "@wdio/sync": "^6.7.3",
+    "oculow": "^0.1.1",
+    "webdriverio": "^6.7.3"
+  }
+}

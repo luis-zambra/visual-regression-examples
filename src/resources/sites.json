@@ -1,0 +1,13 @@
+{   
+    "webdriverio": {
+        "home": "https://webdriver.io",
+        "contribute": "https://webdriver.io/docs/contribute.html",
+        "blog": "https://webdriver.io/blog/"
+    },
+    "theinternet": {
+        "dynamic": "https://the-internet.herokuapp.com/dynamic_content"
+    },
+    "shopping": {
+        "home": "https://lince-232621.firebaseapp.com/shopping"
+    }
+}
