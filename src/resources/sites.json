@@ -1,8 +1,6 @@
 {   
     "webdriverio": {
-        "home": "https://webdriver.io",
-        "contribute": "https://webdriver.io/docs/contribute.html",
-        "blog": "https://webdriver.io/blog/"
+        "home": "https://webdriver.io"
     },
     "theinternet": {
         "dynamic": "https://the-internet.herokuapp.com/dynamic_content"

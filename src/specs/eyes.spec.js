@@ -4,18 +4,16 @@ const credentials = require('../resources/credentials.json');
 
 describe('Visual regression tests using Applitools', function() {  
   this.timeout(180000);
-
   const eyes = new Eyes();
   eyes.setApiKey(credentials.applitools.apikey);
   eyes.setBatch({id: '202011161', name: 'applitools_example'});
-  const selector = '.fixedHeaderContainer';
+  const selector = '.svg_1CSe';
 
-  it('WebdriverIO page navigation bar test with Applitools', async function() {
+  it('WebdriverIO animated logo test with Applitools', async function() {
     browser.url(sites.webdriverio.home);
-    //browser.url(sites.webdriverio.contribute);
-    //browser.url(sites.webdriverio.blog);
+    eyes.setMatchLevel("Layout");
     await eyes.open(browser, 'webdriverio', this.test.fullTitle());
-    await eyes.check('navigation bar', Target.region(selector));
+    await eyes.check('animated logo', Target.region(selector));
     await eyes.close();
   });
   it('The Internet dynamic content test with Applitools', async function() {
